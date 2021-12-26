@@ -1,0 +1,140 @@
+
+* {		    
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.redondear-img {
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+}
+.redondear {
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+}
+
+.pad {
+    padding: 1em;
+}
+
+.borde {
+    border: 1px black solid;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration:none;
+}
+.azul {
+    color: blue;
+}
+
+/* ----------------HEADER---------------------- */
+
+#logo {	    
+    font-size:2.5em ;
+    color:red ;
+    font-family:"Georgia" ; 
+}
+#logo span {
+    color:blue ;
+}
+    
+img, iframe {
+    max-width:100%;
+}
+figure, h1, h2 {
+    text-align: center;
+}
+/*------------------Formulario---------------------*/
+
+
+
+/*-------------------Footer------------------------------------------*/
+ footer {
+    background-color: #999999;
+    margin-top: 3em;
+             
+}
+
+#mapa { border-radius: 50%;
+}   
+
+.icon-foot {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+
+.face {
+    background: url(../../img-kyoco/img/icon/face.png)  center center no-repeat;
+}
+.twitter {
+    background: url(../../img-kyoco/img/icon/twitter.png)  center center no-repeat;
+}
+.youtube {
+    background: url(../../img-kyoco/img/icon/youtube.png)  center center no-repeat;
+}
+.insta {
+    background: url(../../img-kyoco/img/icon/instagram.png)  center center no-repeat;
+}
+
+.telefono {
+    background: url(../../img-kyoco/img/icon/Telefono.png)  left center no-repeat;
+    width: 32px;
+    height: 32px;
+    padding-left: 2em;
+}
+.email {
+    background: url(../../img-kyoco/img/icon/gmail.png)  left center no-repeat;
+    width: 32px;
+    height: 32px;
+    padding-left: 2em;
+}
+
+
+@media screen and (max-width: 779px){
+    .icon-foot {
+        margin-left: .8em;
+        margin-right: .8em;
+    }
+
+}
+
+@media screen and (min-width:780px) {
+    /*------------------------Header------------------------------------------*/
+    #logo {
+        padding-left:.5em;
+        font-size: 4em;
+        text-align: left;
+        margin-bottom: -.1em;
+    }
+
+    li a {
+        color: black;
+    }
+    
+    /*------------------------Footer-----------------*/
+    .icon-foot {
+        margin-left: 1em;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    /* ---------------Header-------------- */
+    #logo {
+        padding-left:70px;
+        font-size: 6em;
+        background-image: url("../../img-kyoco/img/icon/Torre.png");
+        background-repeat: no-repeat;
+        background-position-y: -5px;
+        background-position-x: 10px;
+    }
+    
+    /*---------------Formulario---------------*/
+    
+}
